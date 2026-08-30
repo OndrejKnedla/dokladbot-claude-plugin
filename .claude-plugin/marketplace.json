@@ -1,0 +1,16 @@
+{
+  "name": "dokladbot",
+  "description": "Official DokladBot marketplace: Czech accounting tools for Claude (invoices, VAT, tax deadlines, bank, data box).",
+  "owner": {
+    "name": "DokladBot",
+    "email": "podpora@dokladbot.cz",
+    "url": "https://dokladbot.cz"
+  },
+  "plugins": [
+    {
+      "name": "dokladbot",
+      "source": "./",
+      "description": "Czech accounting for freelancers: invoices, VAT, tax deadlines, bank and data box from your DokladBot account."
+    }
+  ]
+}

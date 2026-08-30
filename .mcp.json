@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dokladbot": {
+      "type": "http",
+      "url": "https://dokladbot.cz/api/mcp"
+    }
+  }
+}
