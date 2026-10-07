@@ -1,0 +1,16 @@
+{
+  "name": "dokladbot",
+  "displayName": "DokladBot",
+  "version": "1.0.1",
+  "description": "Czech accounting for freelancers and small businesses: invoices, receipts, VAT summaries, tax deadlines, bank transactions and data box overview from your DokladBot account (dokladbot.cz).",
+  "author": {
+    "name": "DokladBot",
+    "email": "podpora@dokladbot.cz",
+    "url": "https://dokladbot.cz"
+  },
+  "homepage": "https://dokladbot.cz/funkce/ai-asistent",
+  "repository": "https://github.com/OndrejKnedla/dokladbot-claude-plugin",
+  "license": "MIT",
+  "keywords": ["accounting", "invoices", "vat", "czech", "ucetnictvi", "faktury", "dph", "osvc", "tax", "mcp"],
+  "logo": "icon.png"
+}
