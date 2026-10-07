@@ -2,7 +2,7 @@
   "name": "dokladbot",
   "displayName": "DokladBot",
   "description": "Czech accounting for freelancers and small businesses: invoices, receipts, VAT summaries, tax deadlines, bank transactions and data box overview from your DokladBot account (dokladbot.cz).",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "DokladBot",
     "email": "podpora@dokladbot.cz",
@@ -21,5 +21,10 @@
     "dph",
     "osvc",
     "tax"
-  ]
+  ],
+  "icon": "./icon.png",
+  "documentationUrl": "https://dokladbot.cz/integrace/claude",
+  "supportUrl": "https://dokladbot.cz/kontakt",
+  "privacyPolicyUrl": "https://dokladbot.cz/ochrana-osobnich-udaju",
+  "termsOfServiceUrl": "https://dokladbot.cz/obchodni-podminky"
 }
