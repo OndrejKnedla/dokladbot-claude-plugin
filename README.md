@@ -45,11 +45,18 @@ Install in Claude Code:
 
 ## Safety
 
-The plugin is designed so that the assistant cannot break anything:
+The plugin is designed so that the assistant cannot do anything irreversible
+behind your back:
 
-- It never sends, deletes or pays anything. An invoice draft waits for your
-  approval in the DokladBot dashboard.
-- Tax filings are never submitted; only drafts are prepared.
+- It never makes payments and never sends invoices to customers. An invoice
+  draft waits for your approval in the DokladBot dashboard.
+- Tools with consequences (moving a document to the recycle bin, rejecting
+  documents, filing a VAT return) are annotated as destructive, so Claude asks
+  you to approve each call. Deleted documents go to the recycle bin and can be
+  restored.
+- A VAT return can be filed with the tax office only after a person has
+  reviewed it in the DokladBot dashboard. Without explicit confirmation the
+  tool only shows a preview.
 - Data box: envelopes only. Opening a message counts as legal delivery under
   Czech law, so message content is read exclusively in the dashboard.
 - Access is scoped to your account and can be revoked anytime in Settings,
