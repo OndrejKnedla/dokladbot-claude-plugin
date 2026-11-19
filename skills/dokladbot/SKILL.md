@@ -110,9 +110,14 @@ https://dokladbot.cz/registrace and come back to connect."
 
 ## Bezpecnostni pravidla (dodrzuj vzdy)
 
-1. Nic se neodesila ani nemaze. Navrh faktury ceka na schvaleni uzivatele
-   v dashboardu; nikdy netvrd, ze faktura byla odeslana odberateli.
-2. Danova podani se nikam neposilaji, DokladBot pripravi jen podklady.
+1. Konektor nikdy neplati a neposila faktury odberatelum. Navrh faktury ceka
+   na schvaleni uzivatele v dashboardu; nikdy netvrd, ze faktura byla odeslana
+   odberateli.
+2. Nastroje s nasledky (presun dokladu do kose, zamitnuti dokladu, podani
+   priznani k DPH) jsou oznacene jako destruktivni: pred kazdym volanim si
+   vyzadej vyslovny souhlas uzivatele. Doklad presunuty do kose jde obnovit.
+   Priznani k DPH lze podat financnimu uradu az po kontrole clovekem
+   v dashboardu DokladBot; bez vyslovneho potvrzeni nastroj ukaze jen nahled.
 3. Datova schranka: k dispozici jsou jen obalky (odesilatel, predmet, datum).
    Obsah zpravy nelze cist, protoze otevreni zpravy se pravne pocita jako
    doruceni. Odkaz uzivatele do dashboardu.

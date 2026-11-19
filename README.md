@@ -170,8 +170,11 @@ terminy, prehled hospodareni a bankovni transakce, datova schranka (jen
 obalky prijatych pisemnosti), navrh faktury jednou vetou (ceka na schvaleni
 v dashboardu) a nahrani uctenky ke zpracovani.
 
-Bezpecnost: plugin nic neodesila ani nemaze, danova podani se nikam
-neposilaji, obsah datove schranky se cte vyhradne v dashboardu (otevreni
+Bezpecnost: plugin nikdy neplati a neposila faktury odberatelum. Nastroje
+s nasledky (presun dokladu do kose, zamitnuti dokladu, podani priznani k DPH)
+jsou oznacene jako destruktivni a Claude si pred kazdym volanim vyzada vas
+souhlas; doklad presunuty do kose jde obnovit. Priznani k DPH lze podat az po
+kontrole clovekem v dashboardu DokladBot. Obsah datove schranky se cte vyhradne v dashboardu (otevreni
 zpravy se pravne pocita jako doruceni) a pristup kdykoli zrusite v Nastaveni,
 sekce API klice. Ceny: soucast predplatneho DokladBot, dotazy cerpaji kredity
 tarifu, kompletni cenik na https://dokladbot.cz/cenik. Ochrana osobnich udaju:

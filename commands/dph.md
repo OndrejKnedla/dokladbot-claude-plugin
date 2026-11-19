@@ -15,4 +15,4 @@ zeptej).
 
 Vystup prehledne: zaklady a dan podle sazeb, celkova danova povinnost nebo
 nadmerny odpocet. Pripomen nejblizsi termin podani (nastroj get_tax_deadlines)
-a ze podani vzdy odesila uzivatel sam, DokladBot pripravi jen podklady.
+a ze priznani lze podat az po kontrole clovekem v dashboardu DokladBot.
