@@ -1,7 +1,7 @@
 {
   "name": "dokladbot",
   "displayName": "DokladBot",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Czech accounting for freelancers and small businesses: invoices, receipts, VAT summaries, tax deadlines, bank transactions and data box overview from your DokladBot account (dokladbot.cz).",
   "author": {
     "name": "DokladBot",

@@ -3,6 +3,11 @@ description: Pripravit navrh faktury v DokladBotu (ceka na schvaleni v dashboard
 argument-hint: komu a za co, napr. "Novak s.r.o., 15000 Kc, konzultace"
 ---
 
+Nejdriv over pripojeni: kdyz nastroje DokladBot nejsou dostupne nebo vyzaduji
+prihlaseni, nevolej nic dalsiho, nic neodhaduj a ukaz uzivateli postup
+pripojeni uctu podle skillu dokladbot (sekce "Kdyz ucet jeste neni
+pripojeny").
+
 Pomoci nastroje create_invoice_draft z DokladBot MCP serveru priprav navrh
 faktury podle zadani uzivatele: $ARGUMENTS
 

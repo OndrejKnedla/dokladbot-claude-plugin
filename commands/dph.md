@@ -3,6 +3,11 @@ description: Souhrn DPH za obdobi z DokladBotu
 argument-hint: obdobi, napr. "Q3 2026" nebo "srpen 2026"
 ---
 
+Nejdriv over pripojeni: kdyz nastroje DokladBot nejsou dostupne nebo vyzaduji
+prihlaseni, nevolej nic dalsiho, nic neodhaduj a ukaz uzivateli postup
+pripojeni uctu podle skillu dokladbot (sekce "Kdyz ucet jeste neni
+pripojeny").
+
 Pomoci nastroje get_vat_summary z DokladBot MCP serveru zjisti souhrn DPH
 za obdobi: $ARGUMENTS (pokud neni uvedeno, pouzij posledni ukoncene obdobi
 podle toho, zda je uzivatel mesicni nebo ctvrtletni platce - pripadne se
